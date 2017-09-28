@@ -9,12 +9,10 @@ gulp.task('hello', (arg) => {
 
 });
 
-
 gulp.task('default', function (arg) {
 
     return gulp.src('src/**/*.*')
         .on('data', function (file) {
-
 
             console.log(
                 {
@@ -31,7 +29,6 @@ gulp.task('default', function (arg) {
             );
             console.log('')
 
-
         })
         .pipe(gulp.dest( function (file) {
 
@@ -39,5 +36,4 @@ gulp.task('default', function (arg) {
                    file.extname == '.css' ? 'dest/css' : 'dest'
 
         } ))
-
 });

@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "github:gulpjs/gulp#4.0",
     "oppressor": "0.0.1"
   }
 }
